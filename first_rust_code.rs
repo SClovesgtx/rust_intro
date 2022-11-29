@@ -9,7 +9,7 @@ struct Person {
 
 impl Person {
     fn introducing_my_self(&self){
-        println!("Meu nome é {} e minha idade é {}", self.name, self.age)
+        println!("Meu nome é {} e tenho {} anos.", self.name, self.age)
     }
 }
 
